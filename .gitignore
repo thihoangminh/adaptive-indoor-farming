@@ -1,0 +1,21 @@
+# Java / Maven
+**/target/
+**/*.class
+
+# Node / React
+**/node_modules/
+**/dist/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local backup
+/farm-simulation backup/
