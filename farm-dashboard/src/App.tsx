@@ -54,7 +54,7 @@ function App() {
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
-    fetch(`http://localhost:8080/api/simulation?weather=${weather}`)
+    fetch(`https://adaptive-indoor-farming.onrender.com/api/simulation?weather=${weather}`)
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to retrieve simulation')
