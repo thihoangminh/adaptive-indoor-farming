@@ -150,12 +150,12 @@ function App() {
       <section className="metrics">
         <article className="metric-card">
           <p className="eyebrow">NATURAL LIGHT</p>
-          <strong>{data.sunlight}<span> PPFD</span></strong>
+          <strong>{data.sunlight.toFixed(2)}<span> PPFD</span></strong>
           <p>Incoming sunlight intensity</p>
         </article>
         <article className="metric-card">
           <p className="eyebrow">LED OUTPUT</p>
-          <strong>{data.led}<span> PPFD</span></strong>
+          <strong>{data.led.toFixed(2)}<span> PPFD</span></strong>
           <p>Supplemental light intensity</p>
         </article>
         <article className="metric-card">
