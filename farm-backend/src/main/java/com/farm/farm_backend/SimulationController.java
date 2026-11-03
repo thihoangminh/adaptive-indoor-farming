@@ -10,7 +10,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.CrossOrigin;
-@CrossOrigin(origins = "http://127.0.0.1:5173")
+@CrossOrigin(origins = {
+    "http://127.0.0.1:5173",
+    "https://adaptive-indoor-farming.vercel.app"
+})
 @RestController
 public class SimulationController {
 
